@@ -1,4 +1,4 @@
-package com.example.warehouse_optimization_backend;
+package com.example.WarehouseOptimizationBackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

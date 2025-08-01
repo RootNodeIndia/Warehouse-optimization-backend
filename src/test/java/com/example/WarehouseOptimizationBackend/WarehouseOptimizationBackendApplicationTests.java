@@ -1,4 +1,4 @@
-package com.example.warehouse_optimization_backend;
+package com.example.WarehouseOptimizationBackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
