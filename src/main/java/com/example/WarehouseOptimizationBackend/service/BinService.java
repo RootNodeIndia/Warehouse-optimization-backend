@@ -34,5 +34,10 @@ public class BinService {
     public void deleteBin(String id) {
         binRepository.deleteById(id);
     }
+
+    public List<Bin> addMultipleBins(List<Bin> bins) {
+        return binRepository.saveAll(bins);
+    }
+
 }
 

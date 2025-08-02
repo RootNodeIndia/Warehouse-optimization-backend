@@ -39,4 +39,9 @@ public class BinController {
     public void deleteBin(@PathVariable String id) {
         binService.deleteBin(id);
     }
+
+    @PostMapping("/add")
+    public List<Bin> addMultipleBins(@RequestBody List<Bin> bins) {
+        return binService.addMultipleBins(bins);
+    }
 }
